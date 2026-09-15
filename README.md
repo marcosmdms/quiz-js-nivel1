@@ -1,33 +1,41 @@
-# JS Quiz - Fundamentos
+# JS Quiz - Do Fundamental ao Avançado
 
-Quiz interativo de JavaScript com 100 perguntas práticas e gamificação.
+Quiz interativo para revisar JavaScript do zero ao avançado de forma divertida.
 
-**Jogar:** https://marcosmdms.github.io
+**Jogue aqui:** https://marcosmdms.github.io/quiz/
 
-## O que tem
+## 🎮 Como jogar
 
-- 100 perguntas práticas (código real, não teoria)
-- 4 fases: Variáveis, Operadores, Condicionais, Lógica
-- 30 perguntas por sessão, sem repetir
-- Streak 🔥, combo, confetti e vibração
-- Respostas balanceadas (25% A, B, C, D)
+1. Escolha um nível em cima - comece por Fundamentos se for iniciante
+2. Leia o conceito em laranja - ele indica o tema da pergunta
+3. Escolha A, B, C ou D. Você vê na hora se acertou e o porquê
+4. Acumule XP e mantenha o streak 🔥
 
-## Exemplo
+## 💡 Dicas
 
-let a = [1,2]; let b = a; b.push(3); console.log(a.length) // 3?
-console.log('5' + 3 + 2) // '532'?
-if([]){ console.log('oi') } // imprime?
+- `%` é remainder, `**` é power - leia o código com calma
+- ❤️ 3 vidas por nível - errar faz parte, é revisão!
+- 🔥 3 acertos seguidos = combo com XP em dobro
+- 🏅 Faça 7 de 10 para ganhar medalha
+- 🔄 Clique em "novas perguntas" - sempre tem perguntas diferentes no banco
 
-## Rodar
+## 📚 Níveis
 
-1. Baixe o index.html
-2. Abra no navegador ou suba no GitHub Pages
+- **1. Fundamentos** - Types, variables, typeof, null, undefined
+- **2. Operadores** - remainder, power, &&, ||, ??
+- **3. Fluxo** - for, while, break, if/else
+- **4. Funções** - Arrays, functions, scope, map, filter, reduce
+- **5. Avançado** - closure, prototype, class (syntactic sugar), Promise, async/await, fetch
 
-## Stack
+100 perguntas no total - 10 aleatórias por rodada. Sempre diferente.
 
-Vanilla JS, single file, sem build. Só canvas-confetti via CDN.
+## 🚀 Rodar local
 
-## Autor
+É só abrir o `index.html` no navegador. 100% front-end, sem dependências.
 
-Marcos Negrão - github.com/marcosmdms
+## 🛠️ Tecnologias
 
+HTML, CSS, JavaScript puro.
+
+---
+Criado para revisão rápida e divertida de JS.
